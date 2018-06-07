@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.backend')
 
 @section('content')
     <div class="container">
@@ -22,7 +22,7 @@
                         <br/>
 
                         <div class="table-responsive">
-                            <table class="table">
+                            <table class="table table">
                                 <tbody>
                                     <tr>
                                         <th>ID</th><td>{{ $%%crudNameSingular%%->%%primaryKey%% }}</td>
